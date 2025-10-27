@@ -1,0 +1,130 @@
+syntax = "proto3";
+
+// The main service definition for the chat application.
+service ChatService {
+  // --- User Authentication ---
+  rpc SignUp(SignUpRequest) returns (StatusResponse);
+  rpc Login(LoginRequest) returns (LoginResponse);
+  rpc Logout(LogoutRequest) returns (StatusResponse);
+
+  // --- Core Chat Functionality ---
+  rpc GetUsers(GetUsersRequest) returns (UserList);
+  rpc PostMessage(PostMessageRequest) returns (StatusResponse);
+  rpc StreamMessages(StreamRequest) returns (stream ChatMessage);
+  rpc GetChatHistory(ChatHistoryRequest) returns (ChatHistoryResponse);
+  
+  // --- User Group Management ---
+  rpc GetMyGroups(GetMyGroupsRequest) returns (GroupList);
+
+  // --- Administrator Functions ---
+  rpc CreateGroup(CreateGroupRequest) returns (StatusResponse);
+  rpc AddUserToGroup(ManageGroupRequest) returns (StatusResponse);
+  rpc RemoveUserFromGroup(ManageGroupRequest) returns (StatusResponse);
+  rpc GetAllGroups(GetAllGroupsRequest) returns (GroupList);
+}
+
+// --- Message Definitions for Data Structures ---
+
+message User {
+  string id = 1;
+  string name = 2;
+  bool online = 3;
+}
+
+message Group {
+  string id = 1;
+  string name = 2;
+  repeated string member_ids = 3;
+}
+
+message ChatMessage {
+  string sender_id = 1;
+  string text = 2;
+  string timestamp = 3;
+  string channel_id = 4; // To know which chat this message belongs to
+}
+
+// --- Message Definitions for RPC Requests & Responses ---
+
+// Generic status response for simple success/fail operations.
+message StatusResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+// User Authentication
+message SignUpRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  bool success = 1;
+  string message = 2;
+  string token = 3; // JWT for subsequent authenticated requests
+}
+
+message LogoutRequest {
+  string token = 1;
+}
+
+// User & Group Lists
+message GetUsersRequest {
+  string token = 1;
+}
+
+message UserList {
+  repeated User users = 1;
+}
+
+message GetMyGroupsRequest {
+  string token = 1;
+}
+
+message GroupList {
+  repeated Group groups = 1;
+}
+
+// Messaging
+message PostMessageRequest {
+  string token = 1;
+  string channel_id = 2; // Can be a user ID or a group ID
+  string text = 3;
+}
+
+message StreamRequest {
+  string token = 1;
+  string channel_id = 2;
+}
+
+message ChatHistoryRequest {
+  string token = 1;
+  string channel_id = 2;
+}
+
+message ChatHistoryResponse {
+  repeated ChatMessage messages = 1;
+}
+
+// --- Admin RPC Messages ---
+
+message CreateGroupRequest {
+  string token = 1;
+  string group_name = 2;
+}
+
+message ManageGroupRequest {
+  string token = 1;
+  string group_id = 2;
+  string user_id = 3;
+}
+
+message GetAllGroupsRequest {
+  string token = 1;
+}
+

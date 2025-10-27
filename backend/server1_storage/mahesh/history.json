@@ -1,0 +1,76 @@
+{
+  "messages": [
+    {
+      "sender_id": "manish",
+      "text": "How are you?",
+      "timestamp": "2025-10-20T08:28:54.572055+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Hope you're having a good day.",
+      "timestamp": "2025-10-20T08:31:40.409075+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "nice",
+      "timestamp": "2025-10-20T08:31:56.087210+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "hi bro",
+      "timestamp": "2025-10-20T08:32:12.979625+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "What are you up to?",
+      "timestamp": "2025-10-20T08:39:42.299163+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "qsw",
+      "timestamp": "2025-10-20T08:40:00.157950+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "sw",
+      "timestamp": "2025-10-20T08:40:02.532908+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "sw",
+      "timestamp": "2025-10-20T08:40:04.026326+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "swsw",
+      "timestamp": "2025-10-20T08:40:04.820016+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "hi bhyya",
+      "timestamp": "2025-10-20T08:44:46.512292+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "how are you",
+      "timestamp": "2025-10-20T08:45:07.354532+00:00",
+      "channel_id": "mahesh"
+    },
+    {
+      "sender_id": "manish",
+      "text": "1",
+      "timestamp": "2025-10-20T09:59:29.000524+00:00",
+      "channel_id": "mahesh"
+    }
+  ]
+}

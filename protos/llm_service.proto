@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+// A dedicated service for handling Large Language Model (LLM) interactions.
+service LLMService {
+  // Fetches chat recommendations based on conversation history.
+  rpc GetChatRecommendations(GetChatRecommendationsRequest) returns (GetChatRecommendationsResponse);
+}
+
+// --- Message Definitions for the LLM Service ---
+
+message GetChatRecommendationsRequest {
+    string token = 1;      // To authenticate the user
+    string channel_id = 2; // To fetch the correct chat history
+}
+
+message GetChatRecommendationsResponse {
+    repeated string recommendations = 1;
+}
+

@@ -1,0 +1,34 @@
+{
+  "messages": [
+    {
+      "sender_id": "mahesh",
+      "text": "How are you?",
+      "timestamp": "2025-10-20T08:39:34.334219+00:00",
+      "channel_id": "manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "xws",
+      "timestamp": "2025-10-20T08:40:09.989245+00:00",
+      "channel_id": "manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "hi bhyya",
+      "timestamp": "2025-10-20T08:44:53.066536+00:00",
+      "channel_id": "manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "how  ru ray",
+      "timestamp": "2025-10-20T08:44:57.566550+00:00",
+      "channel_id": "manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "1",
+      "timestamp": "2025-10-20T09:59:35.631926+00:00",
+      "channel_id": "manish"
+    }
+  ]
+}

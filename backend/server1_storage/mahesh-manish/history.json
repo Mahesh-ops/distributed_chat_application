@@ -1,0 +1,281 @@
+{
+  "messages": [
+    {
+      "sender_id": "manish",
+      "text": "hi ra maheshu",
+      "timestamp": "2025-10-20T02:40:04.009918"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "hi ra",
+      "timestamp": "2025-10-20T02:40:19.403770"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "inkenti mama",
+      "timestamp": "2025-10-20T02:42:05.901115"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "el unav ra puka",
+      "timestamp": "2025-10-20T02:47:29.988321"
+    },
+    {
+      "sender_id": "manish",
+      "text": "superuuuu",
+      "timestamp": "2025-10-20T02:47:45.412738"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "enti viseshalu",
+      "timestamp": "2025-10-20T00:35:52.979386+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "em chestunav ra",
+      "timestamp": "2025-10-20T00:44:38.132750+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "cheppu cheppu",
+      "timestamp": "2025-10-20T00:48:58.106118+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "em pani ra",
+      "timestamp": "2025-10-20T01:03:29.835167+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "hi mari",
+      "timestamp": "2025-10-20T01:03:41.360434+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "ikenri",
+      "timestamp": "2025-10-20T01:03:46.227150+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "nothing special, nuvvu cheppu",
+      "timestamp": "2025-10-20T01:04:15.042622+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Nen chala happy ga unna",
+      "timestamp": "2025-10-20T01:06:04.135350+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Adi sare emito cheppu",
+      "timestamp": "2025-10-20T01:06:23.527863+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "undu mari",
+      "timestamp": "2025-10-20T01:06:44.721759+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Emaina plan cheddama",
+      "timestamp": "2025-10-20T10:14:24.127275+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Em plan mari",
+      "timestamp": "2025-10-20T10:14:45.079261+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "1",
+      "timestamp": "2025-10-20T10:14:56.122213+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "1",
+      "timestamp": "2025-10-20T10:14:57.054163+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "1",
+      "timestamp": "2025-10-20T10:14:57.483679+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "1",
+      "timestamp": "2025-10-20T10:14:57.834102+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "1",
+      "timestamp": "2025-10-20T10:14:58.172996+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "hi",
+      "timestamp": "2025-10-20T10:16:02.022209+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "manam",
+      "timestamp": "2025-10-20T10:16:03.995008+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "podama",
+      "timestamp": "2025-10-20T10:16:16.243511+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "podama ra plss",
+      "timestamp": "2025-10-20T10:16:28.813010+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "rey endra nuvu",
+      "timestamp": "2025-10-20T10:16:36.558218+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "chepu ra mari itla aite etla",
+      "timestamp": "2025-10-20T10:16:50.014204+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "entha sepu ra",
+      "timestamp": "2025-10-20T10:32:43.685594+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "enti topic",
+      "timestamp": "2025-10-20T10:32:55.173121+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Em cheppali",
+      "timestamp": "2025-10-20T10:40:18.762655+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Cheppu bro",
+      "timestamp": "2025-10-20T10:40:28.347539+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "enti vishayam",
+      "timestamp": "2025-10-20T10:45:11.090117+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "em ley",
+      "timestamp": "2025-10-20T10:45:34.283232+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Ento cheppu bhaya",
+      "timestamp": "2025-10-20T10:45:48.750706+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Enta sepu wait cheyali",
+      "timestamp": "2025-10-20T10:50:53.472694+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Em cheppanu",
+      "timestamp": "2025-10-20T10:51:11.776084+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Nenu cheppanu",
+      "timestamp": "2025-10-20T10:51:35.801248+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Nen adugutunna",
+      "timestamp": "2025-10-20T10:51:48.961623+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Em vundhi cheppu",
+      "timestamp": "2025-10-20T10:51:55.682310+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Nen cheppanu le",
+      "timestamp": "2025-10-20T10:53:56.033567+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Avuna, enduku?",
+      "timestamp": "2025-10-20T10:57:33.716074+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "ippude chepthanu",
+      "timestamp": "2025-10-20T10:57:55.744141+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Sare bhaya",
+      "timestamp": "2025-10-20T11:01:00.578326+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Em cheppanu cheppu",
+      "timestamp": "2025-10-20T11:01:18.630965+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "manish",
+      "text": "Intakendhuku delay",
+      "timestamp": "2025-10-20T11:01:32.674630+00:00",
+      "channel_id": "mahesh-manish"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Konchem time ivvu",
+      "timestamp": "2025-10-20T11:01:44.266433+00:00",
+      "channel_id": "mahesh-manish"
+    }
+  ]
+}

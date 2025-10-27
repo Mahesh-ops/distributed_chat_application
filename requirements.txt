@@ -1,0 +1,7 @@
+grpcio
+grpcio-tools
+pyjwt
+werkzeug
+colorama
+google-generativeai
+prompt_toolkit

@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "sender_id": "mahesh",
+      "text": "How are you?",
+      "timestamp": "2025-10-20T09:17:03.848713+00:00",
+      "channel_id": "dm_admin_mahesh"
+    },
+    {
+      "sender_id": "mahesh",
+      "text": "Just checking in.",
+      "timestamp": "2025-10-20T09:17:20.635303+00:00",
+      "channel_id": "dm_admin_mahesh"
+    }
+  ]
+}
