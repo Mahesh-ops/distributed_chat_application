@@ -26,7 +26,9 @@ if _version_not_supported:
 
 
 class ChatServiceStub(object):
-    """The main service definition for the chat application.
+    """----------------------------------------------------------------
+    The main Chat Service
+    ----------------------------------------------------------------
     """
 
     def __init__(self, channel):
@@ -55,6 +57,16 @@ class ChatServiceStub(object):
                 request_serializer=protos_dot_chat__pb2.GetUsersRequest.SerializeToString,
                 response_deserializer=protos_dot_chat__pb2.UserList.FromString,
                 _registered_method=True)
+        self.GetMyGroups = channel.unary_unary(
+                '/ChatService/GetMyGroups',
+                request_serializer=protos_dot_chat__pb2.GetMyGroupsRequest.SerializeToString,
+                response_deserializer=protos_dot_chat__pb2.GroupList.FromString,
+                _registered_method=True)
+        self.GetChatHistory = channel.unary_unary(
+                '/ChatService/GetChatHistory',
+                request_serializer=protos_dot_chat__pb2.ChatHistoryRequest.SerializeToString,
+                response_deserializer=protos_dot_chat__pb2.ChatHistoryResponse.FromString,
+                _registered_method=True)
         self.PostMessage = channel.unary_unary(
                 '/ChatService/PostMessage',
                 request_serializer=protos_dot_chat__pb2.PostMessageRequest.SerializeToString,
@@ -64,16 +76,6 @@ class ChatServiceStub(object):
                 '/ChatService/StreamMessages',
                 request_serializer=protos_dot_chat__pb2.StreamRequest.SerializeToString,
                 response_deserializer=protos_dot_chat__pb2.ChatMessage.FromString,
-                _registered_method=True)
-        self.GetChatHistory = channel.unary_unary(
-                '/ChatService/GetChatHistory',
-                request_serializer=protos_dot_chat__pb2.ChatHistoryRequest.SerializeToString,
-                response_deserializer=protos_dot_chat__pb2.ChatHistoryResponse.FromString,
-                _registered_method=True)
-        self.GetMyGroups = channel.unary_unary(
-                '/ChatService/GetMyGroups',
-                request_serializer=protos_dot_chat__pb2.GetMyGroupsRequest.SerializeToString,
-                response_deserializer=protos_dot_chat__pb2.GroupList.FromString,
                 _registered_method=True)
         self.CreateGroup = channel.unary_unary(
                 '/ChatService/CreateGroup',
@@ -95,14 +97,26 @@ class ChatServiceStub(object):
                 request_serializer=protos_dot_chat__pb2.GetAllGroupsRequest.SerializeToString,
                 response_deserializer=protos_dot_chat__pb2.GroupList.FromString,
                 _registered_method=True)
+        self.UploadFile = channel.stream_unary(
+                '/ChatService/UploadFile',
+                request_serializer=protos_dot_chat__pb2.FileChunk.SerializeToString,
+                response_deserializer=protos_dot_chat__pb2.StatusResponse.FromString,
+                _registered_method=True)
+        self.DownloadFile = channel.unary_stream(
+                '/ChatService/DownloadFile',
+                request_serializer=protos_dot_chat__pb2.DownloadRequest.SerializeToString,
+                response_deserializer=protos_dot_chat__pb2.FileChunk.FromString,
+                _registered_method=True)
 
 
 class ChatServiceServicer(object):
-    """The main service definition for the chat application.
+    """----------------------------------------------------------------
+    The main Chat Service
+    ----------------------------------------------------------------
     """
 
     def SignUp(self, request, context):
-        """--- User Authentication ---
+        """--- Authentication ---
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
@@ -121,19 +135,13 @@ class ChatServiceServicer(object):
         raise NotImplementedError('Method not implemented!')
 
     def GetUsers(self, request, context):
-        """--- Core Chat Functionality ---
+        """--- Data Retrieval (GET) ---
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
-    def PostMessage(self, request, context):
-        """Missing associated documentation comment in .proto file."""
-        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
-        context.set_details('Method not implemented!')
-        raise NotImplementedError('Method not implemented!')
-
-    def StreamMessages(self, request, context):
+    def GetMyGroups(self, request, context):
         """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
@@ -145,15 +153,21 @@ class ChatServiceServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
-    def GetMyGroups(self, request, context):
-        """--- User Group Management ---
+    def PostMessage(self, request, context):
+        """--- Actions (POST) ---
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def StreamMessages(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
     def CreateGroup(self, request, context):
-        """--- Administrator Functions ---
+        """--- Admin Functions ---
         """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
@@ -173,6 +187,21 @@ class ChatServiceServicer(object):
 
     def GetAllGroups(self, request, context):
         """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def UploadFile(self, request_iterator, context):
+        """--- File Sharing ---
+        1. Client uploads a file
+        """
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def DownloadFile(self, request, context):
+        """2. Client requests to download a file
+        """
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
@@ -200,6 +229,16 @@ def add_ChatServiceServicer_to_server(servicer, server):
                     request_deserializer=protos_dot_chat__pb2.GetUsersRequest.FromString,
                     response_serializer=protos_dot_chat__pb2.UserList.SerializeToString,
             ),
+            'GetMyGroups': grpc.unary_unary_rpc_method_handler(
+                    servicer.GetMyGroups,
+                    request_deserializer=protos_dot_chat__pb2.GetMyGroupsRequest.FromString,
+                    response_serializer=protos_dot_chat__pb2.GroupList.SerializeToString,
+            ),
+            'GetChatHistory': grpc.unary_unary_rpc_method_handler(
+                    servicer.GetChatHistory,
+                    request_deserializer=protos_dot_chat__pb2.ChatHistoryRequest.FromString,
+                    response_serializer=protos_dot_chat__pb2.ChatHistoryResponse.SerializeToString,
+            ),
             'PostMessage': grpc.unary_unary_rpc_method_handler(
                     servicer.PostMessage,
                     request_deserializer=protos_dot_chat__pb2.PostMessageRequest.FromString,
@@ -209,16 +248,6 @@ def add_ChatServiceServicer_to_server(servicer, server):
                     servicer.StreamMessages,
                     request_deserializer=protos_dot_chat__pb2.StreamRequest.FromString,
                     response_serializer=protos_dot_chat__pb2.ChatMessage.SerializeToString,
-            ),
-            'GetChatHistory': grpc.unary_unary_rpc_method_handler(
-                    servicer.GetChatHistory,
-                    request_deserializer=protos_dot_chat__pb2.ChatHistoryRequest.FromString,
-                    response_serializer=protos_dot_chat__pb2.ChatHistoryResponse.SerializeToString,
-            ),
-            'GetMyGroups': grpc.unary_unary_rpc_method_handler(
-                    servicer.GetMyGroups,
-                    request_deserializer=protos_dot_chat__pb2.GetMyGroupsRequest.FromString,
-                    response_serializer=protos_dot_chat__pb2.GroupList.SerializeToString,
             ),
             'CreateGroup': grpc.unary_unary_rpc_method_handler(
                     servicer.CreateGroup,
@@ -240,6 +269,16 @@ def add_ChatServiceServicer_to_server(servicer, server):
                     request_deserializer=protos_dot_chat__pb2.GetAllGroupsRequest.FromString,
                     response_serializer=protos_dot_chat__pb2.GroupList.SerializeToString,
             ),
+            'UploadFile': grpc.stream_unary_rpc_method_handler(
+                    servicer.UploadFile,
+                    request_deserializer=protos_dot_chat__pb2.FileChunk.FromString,
+                    response_serializer=protos_dot_chat__pb2.StatusResponse.SerializeToString,
+            ),
+            'DownloadFile': grpc.unary_stream_rpc_method_handler(
+                    servicer.DownloadFile,
+                    request_deserializer=protos_dot_chat__pb2.DownloadRequest.FromString,
+                    response_serializer=protos_dot_chat__pb2.FileChunk.SerializeToString,
+            ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
             'ChatService', rpc_method_handlers)
@@ -249,7 +288,9 @@ def add_ChatServiceServicer_to_server(servicer, server):
 
  # This class is part of an EXPERIMENTAL API.
 class ChatService(object):
-    """The main service definition for the chat application.
+    """----------------------------------------------------------------
+    The main Chat Service
+    ----------------------------------------------------------------
     """
 
     @staticmethod
@@ -361,6 +402,60 @@ class ChatService(object):
             _registered_method=True)
 
     @staticmethod
+    def GetMyGroups(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(
+            request,
+            target,
+            '/ChatService/GetMyGroups',
+            protos_dot_chat__pb2.GetMyGroupsRequest.SerializeToString,
+            protos_dot_chat__pb2.GroupList.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def GetChatHistory(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(
+            request,
+            target,
+            '/ChatService/GetChatHistory',
+            protos_dot_chat__pb2.ChatHistoryRequest.SerializeToString,
+            protos_dot_chat__pb2.ChatHistoryResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
     def PostMessage(request,
             target,
             options=(),
@@ -404,60 +499,6 @@ class ChatService(object):
             '/ChatService/StreamMessages',
             protos_dot_chat__pb2.StreamRequest.SerializeToString,
             protos_dot_chat__pb2.ChatMessage.FromString,
-            options,
-            channel_credentials,
-            insecure,
-            call_credentials,
-            compression,
-            wait_for_ready,
-            timeout,
-            metadata,
-            _registered_method=True)
-
-    @staticmethod
-    def GetChatHistory(request,
-            target,
-            options=(),
-            channel_credentials=None,
-            call_credentials=None,
-            insecure=False,
-            compression=None,
-            wait_for_ready=None,
-            timeout=None,
-            metadata=None):
-        return grpc.experimental.unary_unary(
-            request,
-            target,
-            '/ChatService/GetChatHistory',
-            protos_dot_chat__pb2.ChatHistoryRequest.SerializeToString,
-            protos_dot_chat__pb2.ChatHistoryResponse.FromString,
-            options,
-            channel_credentials,
-            insecure,
-            call_credentials,
-            compression,
-            wait_for_ready,
-            timeout,
-            metadata,
-            _registered_method=True)
-
-    @staticmethod
-    def GetMyGroups(request,
-            target,
-            options=(),
-            channel_credentials=None,
-            call_credentials=None,
-            insecure=False,
-            compression=None,
-            wait_for_ready=None,
-            timeout=None,
-            metadata=None):
-        return grpc.experimental.unary_unary(
-            request,
-            target,
-            '/ChatService/GetMyGroups',
-            protos_dot_chat__pb2.GetMyGroupsRequest.SerializeToString,
-            protos_dot_chat__pb2.GroupList.FromString,
             options,
             channel_credentials,
             insecure,
@@ -566,6 +607,60 @@ class ChatService(object):
             '/ChatService/GetAllGroups',
             protos_dot_chat__pb2.GetAllGroupsRequest.SerializeToString,
             protos_dot_chat__pb2.GroupList.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def UploadFile(request_iterator,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.stream_unary(
+            request_iterator,
+            target,
+            '/ChatService/UploadFile',
+            protos_dot_chat__pb2.FileChunk.SerializeToString,
+            protos_dot_chat__pb2.StatusResponse.FromString,
+            options,
+            channel_credentials,
+            insecure,
+            call_credentials,
+            compression,
+            wait_for_ready,
+            timeout,
+            metadata,
+            _registered_method=True)
+
+    @staticmethod
+    def DownloadFile(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_stream(
+            request,
+            target,
+            '/ChatService/DownloadFile',
+            protos_dot_chat__pb2.DownloadRequest.SerializeToString,
+            protos_dot_chat__pb2.FileChunk.FromString,
             options,
             channel_credentials,
             insecure,

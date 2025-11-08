@@ -1,58 +1,48 @@
 syntax = "proto3";
 
-// The main service definition for the chat application.
+// ----------------------------------------------------------------
+// The main Chat Service
+// ----------------------------------------------------------------
 service ChatService {
-  // --- User Authentication ---
+  // --- Authentication ---
   rpc SignUp(SignUpRequest) returns (StatusResponse);
   rpc Login(LoginRequest) returns (LoginResponse);
   rpc Logout(LogoutRequest) returns (StatusResponse);
 
-  // --- Core Chat Functionality ---
+  // --- Data Retrieval (GET) ---
   rpc GetUsers(GetUsersRequest) returns (UserList);
+  rpc GetMyGroups(GetMyGroupsRequest) returns (GroupList);
+  rpc GetChatHistory(ChatHistoryRequest) returns (ChatHistoryResponse);
+
+  // --- Actions (POST) ---
   rpc PostMessage(PostMessageRequest) returns (StatusResponse);
   rpc StreamMessages(StreamRequest) returns (stream ChatMessage);
-  rpc GetChatHistory(ChatHistoryRequest) returns (ChatHistoryResponse);
-  
-  // --- User Group Management ---
-  rpc GetMyGroups(GetMyGroupsRequest) returns (GroupList);
 
-  // --- Administrator Functions ---
+  // --- Admin Functions ---
   rpc CreateGroup(CreateGroupRequest) returns (StatusResponse);
   rpc AddUserToGroup(ManageGroupRequest) returns (StatusResponse);
   rpc RemoveUserFromGroup(ManageGroupRequest) returns (StatusResponse);
   rpc GetAllGroups(GetAllGroupsRequest) returns (GroupList);
+  
+  // --- File Sharing ---
+  // 1. Client uploads a file
+  rpc UploadFile(stream FileChunk) returns (StatusResponse);
+  // 2. Client requests to download a file
+  rpc DownloadFile(DownloadRequest) returns (stream FileChunk);
 }
 
-// --- Message Definitions for Data Structures ---
 
-message User {
-  string id = 1;
-  string name = 2;
-  bool online = 3;
-}
+// ----------------------------------------------------------------
+// Message Definitions
+// ----------------------------------------------------------------
 
-message Group {
-  string id = 1;
-  string name = 2;
-  repeated string member_ids = 3;
-}
-
-message ChatMessage {
-  string sender_id = 1;
-  string text = 2;
-  string timestamp = 3;
-  string channel_id = 4; // To know which chat this message belongs to
-}
-
-// --- Message Definitions for RPC Requests & Responses ---
-
-// Generic status response for simple success/fail operations.
+// --- Generic / Reusable Messages ---
 message StatusResponse {
   bool success = 1;
   string message = 2;
 }
 
-// User Authentication
+// --- Authentication Messages ---
 message SignUpRequest {
   string username = 1;
   string password = 2;
@@ -65,41 +55,70 @@ message LoginRequest {
 
 message LoginResponse {
   bool success = 1;
-  string message = 2;
-  string token = 3; // JWT for subsequent authenticated requests
+  string token = 2; // JWT token for session management
+  string message = 3;
 }
 
 message LogoutRequest {
   string token = 1;
 }
 
-// User & Group Lists
+// --- User and Presence Messages ---
 message GetUsersRequest {
   string token = 1;
+}
+
+message User {
+  string id = 1;      // Will be the username
+  string name = 2;
+  bool online = 3;
 }
 
 message UserList {
   repeated User users = 1;
 }
 
+// --- Group Messages ---
 message GetMyGroupsRequest {
   string token = 1;
+}
+
+message GetAllGroupsRequest {
+  string token = 1; // Admin token
+}
+
+message Group {
+  string id = 1;      // e.g., "engineering-team"
+  string name = 2;    // e.g., "Engineering Team"
+  repeated string member_ids = 3;
 }
 
 message GroupList {
   repeated Group groups = 1;
 }
 
-// Messaging
+// --- Chatting Messages ---
+message FileInfo {
+  string file_name = 1;
+  string file_id = 2; // Unique ID, e.g., the stored filename on server
+}
+
+message ChatMessage {
+  string sender_id = 1;
+  string channel_id = 2; // Recipient user_id or group_id
+  string timestamp = 3;
+
+  // A message can be EITHER text OR a file, but not both.
+  oneof content {
+    string text = 4;
+    FileInfo file_info = 5;
+  }
+}
+
 message PostMessageRequest {
   string token = 1;
   string channel_id = 2; // Can be a user ID or a group ID
   string text = 3;
-}
-
-message StreamRequest {
-  string token = 1;
-  string channel_id = 2;
 }
 
 message ChatHistoryRequest {
@@ -111,8 +130,13 @@ message ChatHistoryResponse {
   repeated ChatMessage messages = 1;
 }
 
-// --- Admin RPC Messages ---
+// Used to subscribe to a channel's message stream
+message StreamRequest {
+    string token = 1;
+    string channel_id = 2;
+}
 
+// --- Admin Messages ---
 message CreateGroupRequest {
   string token = 1;
   string group_name = 2;
@@ -121,10 +145,26 @@ message CreateGroupRequest {
 message ManageGroupRequest {
   string token = 1;
   string group_id = 2;
-  string user_id = 3;
+  string user_id = 3; // The user to add or remove
 }
 
-message GetAllGroupsRequest {
+// --- File Sharing Messages ---
+
+message FileChunk {
+  // First chunk contains metadata, subsequent chunks contain data
+  oneof request {
+    FileUploadInfo info = 1;
+    bytes chunk = 2;
+  }
+}
+
+message FileUploadInfo {
   string token = 1;
+  string channel_id = 2;
+  string file_name = 3;
 }
 
+message DownloadRequest {
+  string token = 1;
+  string file_id = 2; // The unique file ID to download
+}
