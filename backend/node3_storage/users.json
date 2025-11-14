@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "hash": "scrypt:32768:8:1$P7tmuC9PC2MKj35w$036c1aef0dc5222f39696191f698f60126a129c8ecaae30650c0aa597b5dfe532773a6b4f0671c202723c7207b35522f7564965d4c5f570fe1e699ed32bfd043",
+    "is_admin": true
+  },
+  "manish": {
+    "hash": "scrypt:32768:8:1$vplPMXGBuJeB8Vok$998ef26cf47801f5777fed5278d15c58e28e544559b844d684577fc401ecc9c55b00b58fdb9d8051d752483c450982b1c99144c390b58ecaf7d3b0b055980abe",
+    "is_admin": false
+  },
+  "mahesh": {
+    "hash": "scrypt:32768:8:1$TR9AxR0ZZROjEuP8$075ce4a22181db31837d47520cf2c6069e495d50bc622772575aa9386dec84d1ee6d4435fa02b045918702c72054a5c8a10327ba92e97b2c814eeb273596f194",
+    "is_admin": false
+  },
+  "sree": {
+    "hash": "scrypt:32768:8:1$vZldhC5UAlxxu3Ne$54fab073bcc94e75149bfd3e1e61f60e074c6e1954a5b263bf7fcd2fe682e125a51aab31c91c9928eead3846f5e8d632119e0d0e3f22ecb90e0625c937d099f2",
+    "is_admin": false
+  }
+}

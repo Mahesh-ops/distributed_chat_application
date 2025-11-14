@@ -70,6 +70,17 @@ class StorageManager:
         if not os.path.exists(self.groups_file):
             with open(self.groups_file, 'w') as f:
                 json.dump({}, f, indent=2)
+
+
+#ADDED NEW METHOD
+    def add_message_to_history_from_dict(self, channel_id, message_dict):
+        """
+        Add a message to history from a dictionary (used by state machine).
+        """
+        history_file = os.path.join(self.get_channel_dir(channel_id), "history.json")
+        messages = self.get_chat_history(channel_id)
+        messages.append(message_dict)
+        self._write_json(history_file, {"messages": messages})
     
     def _read_json(self, file_path):
         with self.lock:
@@ -532,6 +543,8 @@ def serve():
         for user in users_to_logout:
             online_users.remove(user)
         server.stop(0)
+
+
 
 if __name__ == '__main__':
     serve()

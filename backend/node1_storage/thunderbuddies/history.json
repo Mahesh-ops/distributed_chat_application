@@ -1,0 +1,940 @@
+{
+  "messages": [
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:08:20.668115+00:00",
+      "text": "How are you?"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:09:47.634089+00:00",
+      "text": "hi honey...not u put in green tea"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:10:38.555953+00:00",
+      "text": "discount ledaa??"
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:12:11.095809+00:00",
+      "file_info": {
+        "file_name": "acn-proposal_1.docx",
+        "file_id": "97f31195-342c-4fdd-9809-64ae57e6483c_acn-proposal_1.docx"
+      }
+    },
+    {
+      "sender_id": "manish",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:49.822418+00:00",
+      "text": "Arey kya chal raha hai?"
+    },
+    {
+      "sender_id": "mahesh",
+      "channel_id": "thunderbuddies",
+      "timestamp": "2025-11-12T17:16:59.138601+00:00",
+      "text": "I'm good, thanks. How about you?"
+    }
+  ]
+}

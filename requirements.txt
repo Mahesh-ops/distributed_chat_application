@@ -5,3 +5,4 @@ werkzeug
 colorama
 google-generativeai
 prompt_toolkit
+asyncio
