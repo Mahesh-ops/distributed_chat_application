@@ -725,15 +725,6 @@ pkill -f raft_server.py
 
 ---
 
-## 📞 Support
-
-For issues or questions:
-1. Check the [Troubleshooting](#troubleshooting) section
-2. Review the [File Descriptions](#file-descriptions)
-3. Check server logs in `logs/` directory
-
----
-
 ## 🎓 Learning Resources
 
 - [Raft Paper](https://raft.github.io/raft.pdf) - Original Raft consensus paper
